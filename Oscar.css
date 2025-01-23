@@ -1,6 +1,7 @@
 body 
 {
-    font-family: Arial, sans-serif;
+    font-family:'Times New Roman', Times, serif ;
+    font-size: larger;
     margin: 0;
     padding: 0;
     background-color: #161111;
@@ -60,4 +61,35 @@ footer {
     text-align: center;
     padding: 10px 0;
     width: 100%;
+}
+form input, 
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 8px;
+}
+form textarea{
+    resize:none;
+    border-style: inset;
+    border-radius: 8px;
+    border-width: 2px;
+    height:150px ;
+}
+form button{
+    background-color:   #161111;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 340px;
+    border-radius: 8px;
+    
+}
+form button:hover{
+    background-color: #fcb902;
+}
+input:focus, textarea:focus{
+    outline-color: #fcb902;
 }
